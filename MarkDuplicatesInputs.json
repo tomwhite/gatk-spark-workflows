@@ -1,0 +1,6 @@
+{
+  "MarkDuplicatesWorkflow.MarkDuplicates.gatk_home": "/home/tom/workspace/gatk",
+  "MarkDuplicatesWorkflow.MarkDuplicates.input_bam": "hdfs:///user/tom/bam/CEUTrio.HiSeq.WGS.b37.ch20.1m-1m1k.NA12878.bam",
+  "MarkDuplicatesWorkflow.MarkDuplicates.output_bam": "hdfs:///user/tom/out/markdups",
+  "MarkDuplicatesWorkflow.MarkDuplicates.metrics_filename": "/tmp/markdups-metrics"
+}
