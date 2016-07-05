@@ -18,7 +18,8 @@ cd gatk-spark-workflows
 Copy a small BAM file for testing into HDFS:
 
 ```
-hadoop fs -put data/CEUTrio.HiSeq.WGS.b37.ch20.1m-1m1k.NA128782.bam bam/CEUTrio.HiSeq.WGS.b37.ch20.1m-1m1k.NA12878.bam
+hadoop fs -put data/CEUTrio.HiSeq.WGS.b37.ch20.1m-1m1k.NA12878.bam \
+ bam/CEUTrio.HiSeq.WGS.b37.ch20.1m-1m1k.NA12878.bam
 ```
 
 Edit _MarkDuplicatesInputs.json_ to reflect your local paths.
